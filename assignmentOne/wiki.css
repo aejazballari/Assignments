@@ -1,0 +1,78 @@
+/* universal selector */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* body style */
+body {
+    margin: 25px;
+}
+
+tbody {
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-collapse: collapse;
+    font-size: 14;
+}
+
+/* contets div */
+#contentColor {
+    border: 1px solid black;
+    width: 550px;
+    background-color: aliceblue;
+    padding: 5px;
+
+}
+
+/* list Style */
+
+.listStyle {
+    list-style-position: inside;
+}
+
+/* protect image */
+
+#protect {
+    align-items: flex-end;
+}
+
+/* microsoft heading style */
+
+#microsoftStyle {
+    margin-bottom: 5px;
+}
+
+/* aligning right */
+.align-right {
+    float: right
+}
+
+/* aligning center */
+.align-center {
+    float: center;
+    margin-left: 160px;
+} 
+
+/* aligning left */
+.align-left {
+    float: left;
+    height: 3900px;
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+/* margin of centered div */
+.margin{
+    margin-left: 160px;
+}
+
+/* unodered list styling of microsoft table*/
+ul {
+    list-style-type: none;
+}
+/* odered list styling of content list*/
+ol {
+    list-style-position: inside;
+}
+

@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 18px;
+}
+
+body {
+    background-color:  rgb(240,242,245);
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: rgb(62,91,153);
+    color: white;  
+    height: 80px;
+    padding: 10px
+}
+
+.header-left {
+    width: 60%;
+    float: left;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    padding-left: 180px;
+    padding-top: 10px;
+}
+
+.header-right {
+    width: 40%;
+    float: left;
+    font-size: 0.7rem;
+}
+
+td {
+    padding-left: 12px;
+}
+
+input {
+    padding: 2px 1px;
+}
+
+.login {
+   background-color: rgb(66,103,178);
+   color: white;
+   border-radius: 3px;
+   padding: 3px 4px;
+   border-color: rgb(66,103,178);
+}
+
+.main {
+    height: 530px;
+    
+}
+
+.sub-main {
+    background-color: white;
+    margin: 30px 450px ;
+    padding: 10px 15px 40px 15px;
+    height: 500px;
+    border-radius: 6px;
+    width: 450px;
+    box-shadow: 2px 2px 3px 1px lightgrey, -2px -2px 3px 1px lightgrey;
+    line-height: 1.34;
+}
+
+.mainInput {
+    height: 40px;
+    padding-left: 10px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 201, 201);
+}
+
+.name {
+    width: 207px;
+}
+
+.info {
+    width: 420px;
+}
+
+.generalInfo {
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+select {
+    height: 35px;
+    width: 130px;
+    margin-right: 6px;
+    border-color: rgb(204, 201, 201);
+    border-radius: 6px;
+}
+
+.gender {
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 6px;
+    height: 35px;
+    width: 129px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-right: 11px;
+    font-weight: 100;
+    font-size: 0.9rem;
+    
+}
+
+.terms {
+    border: 1px solid white;
+    overflow: auto;
+    padding-top: 10px;
+    font-size: 0.68rem;
+    color: rgb(100, 98, 98);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.account {
+    background-color: rgb(0, 164, 0);
+    border-color: rgb(0, 164, 0);
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-left: 120px;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.subhead {
+    font-size: 0.8rem;
+    color: rgb(115,115,136);
+}
+ul {
+    list-style-type: none;
+    overflow: auto;
+}
+
+li {
+    float: left;
+    padding: 10px 5px;
+}
+
+footer {
+    color: rgb(115,115,136);
+    font-size: 13px;
+    padding: 42px 130px;
+    background-color: white;
+
+}
+
+hr {
+    border-color:  rgb(243, 243, 243);
+}
