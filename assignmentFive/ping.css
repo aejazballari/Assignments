@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    margin: 50px 350px 40px 400px;
+}
+
+.top {
+    margin-bottom: 30px;
+}
+.ping {
+    margin-left: 250px;
+    margin-bottom: 30px ;
+}
+
+#p1 {
+    font-size: 40px;
+    font-weight: bolder ;
+    padding-left: 100px;
+}
+
+span {
+color: rgb(175, 170, 170);
+font-weight: lighter;
+}
+
+.notified {
+    padding-left: 200px;
+    padding-top: 10px;
+    font-size: 17px;
+    color: rgb(109, 107, 107);
+}
+
+.email {
+    padding-left: 70px;
+    margin-bottom: 40px;
+}
+
+.emailInput {
+    height: 40px;
+    width: 300px;
+    border-color: rgb(235, 231, 231);
+    border-radius: 50px;
+    outline: none;
+    padding-left: 25px;
+}
+
+::placeholder {
+    color: rgb(175, 170, 170);
+}
+
+.submit {
+    height: 40px;
+    width: 140px;
+    background-color: rgb(77,123,242);
+    border-color: rgb(77,123,242);
+    border-radius: 50px;
+    color: white;
+    outline: none;
+}
+
+.status {
+    padding-left: 60px;
+}
+
+
+ul {
+    position: absolute;
+    top: 90%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px 15px;
+}
+
+a {
+    border: 1px solid rgb(236, 233, 233)
+}
+
+.copyright {
+    padding-left: 580px;
+    font-size: 13px;
+    color: rgb(219, 215, 215);
+}
