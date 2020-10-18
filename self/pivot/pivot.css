@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.puzzle {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.word {
+    width: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.letter {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(104, 99, 99);
+    color: white;
+    font-size: 30px;
+    order: 2;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+    right: 50%;
+}
+
+.letter:last-child {
+    margin-right: auto;
+}
+
+.pivot {
+    background-color: rgb(74, 148, 126);
+}
+
+ .pivot ~ .letter {
+    order: 1;
+    left:50%
+}
+
+
+
+
+
+
+
+
+/*
+.puzzle {
+    height: 270px;
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    position: relative;
+}
+
+.word {
+    width: 500px;
+}
+
+.letter {
+    display: inline-block;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(88, 86, 86);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.pivot {
+    background-color: rgb(87, 156, 139);
+}
